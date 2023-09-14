@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "cover": "https://example.com/book1_cover.jpg",
+      "title": "The Enchanted Forest",
+      "author": "John Doe",
+      "author_img": "https://example.com/johndoe.jpg",
+      "posted_date": "2023-09-14",
+      "reading_time": 45,
+      "hashtags": ["fantasy", "adventure", "magic"]
+    },
+    {
+      "id": "2",
+      "cover": "https://example.com/book2_cover.jpg",
+      "title": "Mystery at Midnight Manor",
+      "author": "Jane Smith",
+      "author_img": "https://example.com/janesmith.jpg",
+      "posted_date": "2023-09-13",
+      "reading_time": 60,
+      "hashtags": ["mystery", "thriller", "suspense"]
+    },
+    {
+      "id": "3",
+      "cover": "https://example.com/book3_cover.jpg",
+      "title": "Science and Beyond",
+      "author": "Albert Einstein",
+      "author_img": "https://example.com/einstein.jpg",
+      "posted_date": "2023-09-12",
+      "reading_time": 30,
+      "hashtags": ["science", "physics", "theory"]
+    },
+    {
+      "id": "4",
+      "cover": "https://example.com/book4_cover.jpg",
+      "title": "Cooking Adventures",
+      "author": "Alice Johnson",
+      "author_img": "https://example.com/alicejohnson.jpg",
+      "posted_date": "2023-09-11",
+      "reading_time": 50,
+      "hashtags": ["cooking", "recipes", "food"]
+    },
+    {
+      "id": "5",
+      "cover": "https://example.com/book5_cover.jpg",
+      "title": "Traveling the World",
+      "author": "David Wilson",
+      "author_img": "https://example.com/davidwilson.jpg",
+      "posted_date": "2023-09-10",
+      "reading_time": 75,
+      "hashtags": ["travel", "adventure", "explore"]
+    }
+  ]
+  
