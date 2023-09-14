@@ -3,8 +3,8 @@ const Bookmarks = ({ bookMark, readTime, handleDlt }) => {
   return (
     <div className="md:w-1/3">
       <h2>Read time: {readTime}min</h2>
-      {bookMark.map((mark) => (
-        <div key={mark.id}>
+      {bookMark.map((mark, idx) => (
+        <div key={idx}>
           <h2>{mark.title} </h2>
           <button
             onClick={() => handleDlt(mark.id)}
@@ -19,11 +19,9 @@ const Bookmarks = ({ bookMark, readTime, handleDlt }) => {
 };
 
 Bookmarks.propTypes = {
-  bookMark: PropTypes.shape({
-    map: PropTypes.func
-  }),
+  bookMark: PropTypes.array.isRequired,
   handleDlt: PropTypes.func,
-  readTime: PropTypes.any
-}
+  readTime: PropTypes.any,
+};
 
 export default Bookmarks;
