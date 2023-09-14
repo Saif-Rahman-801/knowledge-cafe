@@ -16,9 +16,14 @@ function App() {
 
   const handleReadTime = (blog) => {
     // console.log(blog);
-    const newTime = readTime + blog.reading_time ;
+    const newTime = readTime + blog.reading_time;
     setReadTime(newTime);
     console.log(readTime);
+  };
+
+  const handleDlt = (id) => {
+    const newBookMarkList = bookMark.filter((mark) => mark.id !== id);
+    setBookmark(newBookMarkList);
   };
 
   return (
@@ -26,7 +31,7 @@ function App() {
       <Header />
       <div className="md:flex gap-5 container mx-auto">
         <Blog handleBookMark={handleBookMark} handleReadTime={handleReadTime} />
-        <Bookmarks bookMark={bookMark} readTime={readTime}/>
+        <Bookmarks bookMark={bookMark} readTime={readTime} handleDlt={handleDlt}/>
       </div>
     </>
   );
